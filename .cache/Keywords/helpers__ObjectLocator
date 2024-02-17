@@ -1,0 +1,42 @@
+{
+  "keywordFileContentHash": "3CDAAEB44E7B458DB0E5DDFFA17402AE",
+  "keywordClasses": [
+    {
+      "name": "helpers.ObjectLocator",
+      "keywordMethods": [
+        {
+          "name": "object",
+          "parameters": [
+            {
+              "name": "attribute",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "xpathLocator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
