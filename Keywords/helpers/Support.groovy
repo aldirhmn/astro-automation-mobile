@@ -23,14 +23,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Support {
-	
+
 	@Keyword
 	public static takeScreenshot() {
-		
+
 		Date currentTimestamp = new Date();
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH.mm.ss.SSS'Z'");
 		String formattedTimestamp = dateFormat.format(currentTimestamp);
-		
-		Mobile.takeScreenshot(formattedTimestamp);
+
+		Mobile.takeScreenshotAsCheckpoint(formattedTimestamp+'.png');
 	}
 }
